@@ -22,4 +22,8 @@ will draw a quadtree with 30 points.
 ```
 will draw slowly a quadtree with 30 points. Nice for visualization.
 
-With the key **r** you can randomly generate a new quadtree. Using **x** you can close the window
+With the key **r** you can randomly generate a new quadtree. Using **x** you can close the window.
+
+![Example quadtree](example_quadtree.png)
+
+
