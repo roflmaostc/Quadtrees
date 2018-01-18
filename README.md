@@ -1,4 +1,4 @@
-This is a visualization of the [Quadtree](https://en.wikipedia.org/wiki/Quadtree) using OCaml.
+This is a visualization of the [Quadtree](https://en.wikipedia.org/wiki/Quadtree) using [OCaml](https://ocaml.org/).
 
 To compile this visualization use:
 
@@ -12,4 +12,4 @@ Execution of the command can be done with:
 ./quadtree.native
 ```
 
-Then a graphics window will open. With the key r you can randomly generate a new quadtree. Using x you can close the window
+Then a graphics window will open. With the key **r** you can randomly generate a new quadtree. Using **x** you can close the window
