@@ -5,7 +5,7 @@ To compile this visualization use:
 ```bash
 ocamlbuild -package graphics quadtree.native
 ```
-As you can see we use the [Graphics package](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Graphics.html#VALdraw_circle) for visualization.
+As you can see we use the [Graphics package](https://caml.inria.fr/pub/docs/manual-ocaml/libref/Graphics.html) for visualization.
 
 Execution of the command can be done with:
 ```bash
