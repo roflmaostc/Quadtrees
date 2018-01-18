@@ -65,10 +65,10 @@ let rec draw_quadtree qt x_size y_size scaling offset =
   let rec refresh x = 
     let c = read_key ()
     in
-    if c = 'r' then let () = clear_graph () in aux (generate_random_tree 30) 1.0; refresh x
+    if c = 'r' then let () = clear_graph () in aux (generate_random_tree (int_of_string (Sys.argv.(1)))) 1.0; refresh x
     else if c = 'x' then ()
     else refresh ()
   in
   refresh ()
 
-let () = draw_quadtree (generate_random_tree 30) 500 500 400 30 
+let () = draw_quadtree (generate_random_tree (int_of_string (Sys.argv.(1)))) 500 500 400 30  
