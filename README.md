@@ -9,7 +9,7 @@ As you can see we use the [Graphics package](https://caml.inria.fr/pub/docs/manu
 
 Execution of the command can be done with:
 ```bash
-./quadtree.native <number_of_points>
+./quadtree.native [number_of_points]
 ```
 
 Then a graphics window will open. With the key **r** you can randomly generate a new quadtree. Using **x** you can close the window
